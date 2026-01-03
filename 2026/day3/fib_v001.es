@@ -17,7 +17,7 @@ set raytracer::samples 64
 set raytracer::size [1920x0] 
 set raytracer::phong [0.6,0.6,0.3]
 set raytracer::light [10,100,-29]
-set colorpool image:/home/jesse/projects/genuary/2026/day3/mm2.jpg
+set colorpool image:/path/to/genuary/2026/day3/mm2.jpg // fix path on your system!
 
 // Make the boxes a bit more interesting
 rule randbox {{c random} box}
